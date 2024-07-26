@@ -2,8 +2,6 @@ import random
 import numpy as np
 from modelpy_abm.main import AgentModel
 
-# Template initial data and timestep data functions
-
 
 def constructModel() -> AgentModel:
     def generateInitialData(model: AgentModel):
