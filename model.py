@@ -9,7 +9,7 @@ def generateInitialData(model: AgentModel):
         "b_success_rate": random.uniform(0.01, 0.99),
         "b_evidence": None,
         "type": "dominant"
-        if random.random() > model.proportion_marginalized
+        if random.random() > model["proportion_marginalized"]
         else "marginalized",
     }
 
