@@ -1,4 +1,4 @@
-from modelpy_abm.main import AgentModel
+from emergent.main import AgentModel
 import random
 import numpy as np
 
